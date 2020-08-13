@@ -51,6 +51,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    @media only screen {
+        -webkit-tap-highlight-color: transparent;
+    }
 }
 html {
     font-size: 62.5%;
